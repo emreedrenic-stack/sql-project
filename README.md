@@ -321,10 +321,10 @@ LIMIT 15;
 
 ```mermaid
 xychart-beta
-    title "Average Salary by Skill for Remote Data Analyst Roles"
-    x-axis ["Snowflake", "Azure", "AWS", "Oracle", "Looker", "Python", "R", "Tableau", "SAS", "SQL Server", "Power BI", "SQL", "PowerPoint", "Excel"]
-    y-axis "Average Salary ($)" 85000 --> 115000
-    bar [112948, 111225, 108317, 104534, 103795, 101397, 100499, 99288, 98902, 97786, 97431, 97237, 88701, 87288]
+    title "Average Salary by Skill (Top 7)"
+    x-axis ["Snowflake", "Azure", "AWS", "Oracle", "Looker", "Python", "R"]
+    y-axis "Average Salary ($)" 100000 --> 115000
+    bar [112948, 111225, 108317, 104534, 103795, 101397, 100499]
 ```
 
 Cloud and data platform skills such as Snowflake, Azure, and AWS are associated with the highest average salaries.
@@ -333,10 +333,10 @@ Cloud and data platform skills such as Snowflake, Azure, and AWS are associated 
 
 ```mermaid
 xychart-beta
-    title "Demand Count by Skill for Remote Data Analyst Roles"
-    x-axis ["SQL", "Excel", "Python", "Tableau", "R", "Power BI", "SAS", "PowerPoint", "Looker", "Snowflake", "Oracle", "SQL Server", "Azure", "AWS"]
+    title "Demand Count by Skill (Top 7)"
+    x-axis ["SQL", "Excel", "Python", "Tableau", "R", "Power BI", "SAS"]
     y-axis "Demand Count" 0 --> 420
-    bar [398, 256, 236, 230, 148, 110, 63, 58, 49, 37, 37, 35, 34, 32]
+    bar [398, 256, 236, 230, 148, 110, 63]
 ```
 
 SQL has the highest demand, followed by Excel, Python, and Tableau. This confirms that SQL is a foundational requirement for Data Analyst roles.
